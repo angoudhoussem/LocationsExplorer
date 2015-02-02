@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Locations Explorer</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="title_activity_fragment_locations">Locations Explorer</string>
+    <string name="title_activity_list_location">Locations Explorer</string>
+    <string name="title_activity_fragment_favoris">Locations Explorer</string>
+    <string name="title_activity_home_fragment">Locations Explorer</string>
+    <string name="title_activity_splash_screen">Locations Explorer</string>
+    <string name="title_activity_connection">Locations Explorer</string>
+    <string name="title_activity_inscription">Locations Explorer</string>
+    <string name="title_activity_cafe_location">Locations Explorer</string>
+    <string name="title_activity_web">Locations Explorer</string>
+    <string name="hello_world">URL:</string>
+    <string name="browse">Browse</string>
+
+</resources>

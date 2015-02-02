@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/w_bachground"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="10dp"
+        android:orientation="horizontal" >
+
+        <RatingBar
+            android:id="@+id/RatingBar01"
+            style="?android:attr/ratingBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:numStars="4"
+            android:rating="2.0"
+            android:stepSize="1.0" />
+
+        <ImageButton
+            android:id="@+id/ImageButton01"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="195dp"
+            android:background="@drawable/ic_action_favorite" />
+    </LinearLayout>
+
+    <com.digitalaria.gama.carousel.Carousel
+        android:id="@+id/caarousel"
+        android:layout_width="290dp"
+        android:layout_height="170dp"
+        android:layout_gravity="center"
+        android:background="@drawable/carousel" />
+
+    <LinearLayout
+        android:layout_width="301dp"
+        android:layout_height="258dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Name:"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewName"
+                style="@style/AppTheme"
+                android:layout_width="239dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Address:"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewAddress"
+                style="@style/AppTheme"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:text="Phone"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textViewPhone"
+                style="@style/AppTheme"
+                android:layout_width="184dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="0.34"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                style="@style/AppTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Site web"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/textsiteweb"
+                style="@style/AppTheme"
+                android:layout_width="229dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:textColor="#008AE6"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="47dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/facebook_icon"
+                tools:ignore="ButtonStyle" />
+
+            <Button
+                android:id="@+id/buttonMap"
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:layout_weight="0.00"
+                android:background="@drawable/map_icon" />
+
+            <Button
+                android:id="@+id/buttonroutes"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:background="@drawable/route_icon" />
+
+            <Button
+                android:id="@+id/butAppel"
+                android:layout_width="53dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="22dp"
+                android:background="@drawable/phone_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
